@@ -1,12 +1,12 @@
 #!/bin/bash
 
 function install_basic_tools() {
-  echo "Installing basic tools ..."
-  sudo apt-get update -qq
-  sudo apt-get install -y byobu zsh vim
-  sudo apt-get install -y git
-  sudo apt-get install -y htop
-  sudo apt-get install -y wget
+   echo "Installing basic tools ..."
+   sudo apt-get update -qq
+   sudo apt-get install -y byobu zsh vim
+   sudo apt-get install -y git
+   sudo apt-get install -y htop
+   sudo apt-get install -y wget
 }
 
 function install_docker_and_tools() {
