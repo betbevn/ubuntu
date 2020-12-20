@@ -14,7 +14,7 @@ function install_docker_and_tools() {
     wget -qO- https://get.docker.com/ | sh
 
     echo "Installing docker-compose..."
-    COMPOSE_VERSION=1.25.3
+    COMPOSE_VERSION=1.27.4
     sudo wget -q https://github.com/docker/compose/releases/download/$COMPOSE_VERSION/docker-compose-`uname -s`-`uname -m` \
         -O /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
